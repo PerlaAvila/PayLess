@@ -1,0 +1,213 @@
+<% provide(:title, "Payless") %>
+<div class="half-color">
+    <div class="container top-content">
+        <div class="row">
+	        <div class="col-sm-6 search-eng">
+	           	<h2>
+	           	 	Encuentra las mejores ofertas en coches de alquiler.
+	           	</h2>
+	           	    <form role="form" action="" method="">
+	                    <div id="contact-form" class="form-container" data-form-container>
+	                        <br>
+							    <div class="input-group">
+								  <input type="text" class=" input-lg form-control" placeholder="Aeropuerto / Ciudad o escoge tu locación" aria-describedby="basic-addon2">
+								  <span class="input-group-addon" id="basic-addon2"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+							    </div>
+							    <br>
+							    <div class="row">
+								    <div class="col-sm-3">
+										<div class="input-group">
+										  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
+										  <span class="input-group-addon" id="basic-addon2"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+										</div>
+								    </div>
+								    <div class="col-sm-3">
+										<div class="input-group">
+										  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
+										  <span class="input-group-addon" id="basic-addon2"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+										</div>
+								    </div>
+									<div class="col-sm-3">
+										<div class="input-group">
+										  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
+										  <span class="input-group-addon" id="basic-addon2"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="input-group">
+										  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
+										  <span class="input-group-addon" id="basic-addon2"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+										</div>
+								    </div>
+								</div>
+								<br>
+								<div class="input-group">
+								        <input type="checkbox" aria-label="Checkbox for following text input">
+								      	<span>Regresar a otro lugar</span>
+								</div>	
+								<br>
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="form-group">
+										  <select class="form-control" id="sel1">
+										    <option>1</option>
+										    <option>2</option>
+										    <option>3</option>
+										    <option>4</option>
+										  </select>
+										</div>
+									</div>
+									<div class="col-sm-8">
+										<div class="form-group">
+										  <select class="form-control" id="sel1">
+										    <option>1</option>
+										    <option>2</option>
+										    <option>3</option>
+										    <option>4</option>
+										  </select>
+										</div>
+									</div>
+								</div>
+								<input type="submit" class="btn btn-info" value="Submit Button">
+							<br>
+							<div class="input-group checkbx">
+								<input type="checkbox" aria-label="Checkbox for following text input">
+								    <span> Tengo un código de cupón / PDN</span>
+							</div>
+							<div class="input-group checkbx">
+								<input type="checkbox" aria-label="Checkbox for following text input">
+								    <span> ¿Es usted un agente de viajes / Perks Member?</span><i class="fa fa-question" aria-hidden="true"></i>
+							</div>
+
+	                    </div>
+					</form>
+	           
+	        </div>
+           <div class="col-sm-6">
+           	  <h2 class="catch-eye"><strong>Ingrese</strong> a su cuenta de <span class="brand-txt">Payless</span> para obtener tarifas exclusivas</h2>
+           	  <%= link_to image_tag("nissan-march.png", alt: "Nissan March"), 'https://paylesscar.com.mx', class: 'img-responsive march' %>
+           </div>
+
+    	</div>
+    </div>
+</div>
+
+<!-- INICIA PROMOCIONONES -->
+
+<div class="gray">
+	<div class="container promociones">
+	<div class="content-area">
+		<div id="myCarousel" class="carousel slide">
+		  <!-- Indicators -->
+		  	<ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+		    </ol>
+
+		  <!-- Wrapper for slides -->
+		    <div class="carousel-inner">
+			    <div class="item active">
+					<div class="row promo">
+						<div class="col-sm-6 promos">
+						  <h2 class="blue-title">Promociones</h2>
+						  <br>
+						  <br>
+						  <h2>Lorem ipsum dolor sit amet</h2>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Ut ornare orci ac commodo ultricies. Aliquam erat volutpat.</p>
+						  <br>
+						  <br>
+						  <button class="info">Más información</button>
+						</div>
+						<div class="col-sm-6">
+							<div class="price">$19</div>
+							<div class="orange">
+							  <p>Lorem ipsum dolor sit amet</p>
+						    </div>
+						    <div class="march-1">
+						    	 <%= link_to image_tag("nissan-march.png", alt: "Nissan March"), 'https://paylesscar.com.mx', class: 'img-responsive' %>
+						    </div>	
+						</div>
+					</div>
+				</div>
+				<div class="item">
+		           <div class="row promo">
+						<div class="col-sm-6 promos">
+						  <h2 class="blue-title">Promociones</h2>
+						  <br>
+						  <br>
+						  <h2>Lorem ipsum dolor sit amet</h2>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Ut ornare orci ac commodo ultricies. Aliquam erat volutpat.</p>
+						  <br>
+						  <br>
+						  <button class="info-1">Más información</button>
+						</div>
+						<div class="col-sm-6">
+							<div class="price">$19</div>
+							<div class="blue">
+							  <p>Lorem ipsum dolor sit amet</p>
+						    </div>
+						    <div class=jeep>
+						    	 <%= link_to image_tag("jeep-wrangler.png", alt: "Jeep wrangler"), 'https://paylesscar.com.mx', class: 'img-responsive' %>
+						    </div>	
+						</div>
+					</div>
+		        </div>
+			    <div class="item">
+			       <div class="row promo">
+						<div class="col-sm-6 promos">
+						  <h2 class="blue-title">Promociones</h2>
+						  <br>
+						  <br>
+						  <h2>Lorem ipsum dolor sit amet</h2>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Ut ornare orci ac commodo ultricies. Aliquam erat volutpat.</p>
+						  <br>
+						  <br>
+						  <button class="info-2">Más información</button>
+						</div>
+						<div class="col-sm-6">
+							<div class="price">$19</div>
+							<div class="green">
+							  <p>Lorem ipsum dolor sit amet</p>
+						    </div>
+						    <div class="vento">
+						    	 <%= link_to image_tag("vento.png", alt: "Vento"), 'https://paylesscar.com.mx', class: 'img-responsive' %>
+						    </div>	
+						</div>
+					</div>
+			    </div>
+		    </div>
+		</div>
+
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						    <span class="icon-prev"></span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						    <span class="icon-next"></span>
+						</a>
+	</div>
+	</div>
+</div>
+<!-- Autos -->
+<div class="container autos">
+  <div>
+  	
+  </div>
+  <div class="row">
+  	<div class="col-sm-4">
+		<div class="lil-price">$19</div>
+		<div class="lil-orange">
+		  <p>Lorem ipsum dolor sit amet</p>
+	    </div>
+	    <div class="march-1">
+	    	 <%= link_to image_tag("nissan-march.png", alt: "Nissan March"), 'https://paylesscar.com.mx', class: 'img-responsive' %>
+	    </div>	
+  	</div>
+  	<div class="col-sm-4">
+  		
+  	</div>
+  	<div class="col-sm-4">
+  		
+  	</div>
+  </div>	
+</div>

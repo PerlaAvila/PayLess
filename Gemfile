@@ -34,6 +34,14 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'jquery-rails'
+#gem to add bootstrap
+gem 'bootstrap-sass', '3.3.6'
+#gem to add font-awesome icons
+gem 'font-awesome-sass', '~> 4.7.0'
+#gem for the date in the form
+gem 'momentjs-rails', '>= 2.9.0'
+gem 'bootstrap3-datetimepicker-rails', '~> 4.14.30'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
